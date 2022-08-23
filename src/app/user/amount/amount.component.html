@@ -16,7 +16,7 @@
                 <br>
                 <label for="exampleInputPassword1">Enter Aadhar Number To See Pension Details</label>
                 <input required ngModel name="aadharNo" #aadharNo="ngModel" type="text" class="form-control"
-                placeholder="User Name" ng-minlength="12" ng-maxlength="12" aria-label="Aadhar No" id="aadharNo" required="true">
+                placeholder="Aadhar No" minlength="12" maxlength="12" aria-label="Aadhar No" id="aadharNo" required="true">
                </div>
               <br>
               <button type="submit" [disabled]="!f.valid || clicked" class="btn btn-primary">{{submitButtonText}}</button>&nbsp;
